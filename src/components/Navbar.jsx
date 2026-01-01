@@ -21,11 +21,29 @@ export default function Navbar() {
             {/* MENU – højre */}
             <div className="flex gap-6 items-center justify-self-end col-start-3 text-sm">
                 <Link
+                    href="/trade-in"
+                    className="hover:underline decoration-orange-400 inline-block px-2 py-1 tracking-widest font-medium sm:tracking-tight sm:text-base"
+                >
+                    TRADE-IN
+                </Link>
+                <Link
                     href="https://www.anarikkelarsen.dk"
                     target="_blank"
                     className="hover:underline decoration-orange-400 inline-block px-2 py-1 tracking-widest font-medium sm:tracking-tight sm:text-base"
                 >
-                    TRADE-IN & SHOP NOW
+                    SHOP
+                </Link>
+                <Link
+                    href="/events"
+                    className="hover:underline decoration-orange-400 inline-block px-2 py-1 tracking-widest font-medium sm:tracking-tight sm:text-base"
+                >
+                    EVENTS
+                </Link>
+                <Link
+                    href="/about"
+                    className="hover:underline decoration-orange-400 inline-block px-2 py-1 tracking-widest font-medium sm:tracking-tight sm:text-base"
+                >
+                    ABOUT
                 </Link>
 
             </div>
