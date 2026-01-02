@@ -36,14 +36,15 @@ export default function ScrollCue() {
                 })
             }
             className="
-        fixed bottom-8 left-1/2 -translate-x-1/2
-        text-5xl
-        text-black-800
-        animate-bounce
-        opacity-90
-        transition
-        hover:opacity-100 hover:scale-110
-        focus:outline-none
+               hidden md:block
+                fixed bottom-8 left-1/2 -translate-x-1/2
+                text-5xl
+                text-black-800
+                animate-bounce
+                opacity-90
+                transition
+                hover:opacity-100 hover:scale-110
+                focus:outline-none
       "
         >
             ↓
