@@ -17,7 +17,7 @@ export default function Events() {
       <section className="grid gap-16">
         {/* EVENT 1 */}
         <article className="grid gap-8 md:grid-cols-2 md:items-center">
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-gray-100">
+          <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl bg-gray-100">
             <Image src="/reapir.webp" alt="Care & Repair" fill className="object-cover object-center" priority />
           </div>
 
@@ -31,7 +31,7 @@ export default function Events() {
 
         {/* EVENT 2 (image right on desktop) */}
         <article className="grid gap-8 md:grid-cols-2 md:items-center">
-          <div className="md:order-2 relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-gray-100">
+          <div className="md:order-2 relative aspect-4/3 w-full overflow-hidden rounded-2xl bg-gray-100">
             <Image src="/afterski.webp" alt="Afterski bytur" fill className="object-cover object-center" />
           </div>
 
@@ -45,7 +45,7 @@ export default function Events() {
 
         {/* EVENT 3 */}
         <article className="grid gap-8 md:grid-cols-2 md:items-center">
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-gray-100">
+          <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl bg-gray-100">
             <Image src="/quiz.webp" alt="Quiz Night" fill className="object-cover object-center" />
           </div>
 
