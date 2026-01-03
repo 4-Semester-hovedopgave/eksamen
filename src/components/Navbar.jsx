@@ -29,28 +29,28 @@ export default function Navbar() {
                 <div className="hidden items-center gap-10 text-sm md:flex font-semibold">
                     <Link
                         href="/trade-in"
-                        className="hover:underline decoration-orange-400 underline-offset-4"
+                        className="hover:underline decoration-orange-400 decoration-2 underline-offset-4"
                     >
                         TRADE-IN
                     </Link>
 
                     <Link
                         href="https://www.anarikkelarsen.dk"
-                        className="hover:underline decoration-orange-400 underline-offset-4"
+                        className="hover:underline decoration-orange-400 decoration-2 underline-offset-4"
                     >
                         SHOP
                     </Link>
 
                     <Link
                         href="/events"
-                        className="hover:underline decoration-orange-400 underline-offset-4"
+                        className="hover:underline decoration-orange-400 decoration-2 underline-offset-4"
                     >
                         EVENTS
                     </Link>
 
                     <Link
                         href="/about"
-                        className="hover:underline decoration-orange-400 underline-offset-4"
+                        className="hover:underline decoration-orange-400 decoration-2 underline-offset-4"
                     >
                         ABOUT
                     </Link>

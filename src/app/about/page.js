@@ -17,7 +17,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-gray-100">
+        <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl bg-gray-100">
           <Image src="/about.jpg" alt="Skihill" fill className="object-cover" priority />
         </div>
       </section>

@@ -25,7 +25,7 @@ export default function TradeIn() {
           </div>
         </div>
 
-        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-gray-100">
+        <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl bg-gray-100">
           <Image src="/trade-in.jpg" alt="Trade-in hero" fill className="object-cover" priority />
         </div>
       </section>
@@ -77,7 +77,7 @@ export default function TradeIn() {
 
         <div className="mt-12">
           <a href="/trade-in/mail-in" className="inline-flex rounded-full bg-gray-900 px-8 py-4 text-sm font-semibold text-white hover:bg-gray-800">
-            Start Mail-In
+            Start Trade-In
           </a>
         </div>
       </section>
