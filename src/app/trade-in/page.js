@@ -25,7 +25,7 @@ export default function TradeIn() {
         </div>
 
         <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl bg-gray-100">
-          <Image src="/trade-in.webp" alt="Trade-in hero" fill className="object-cover" priority />
+          <Image src="/trade.webp" alt="Trade-in hero" fill className="object-cover" priority />
         </div>
       </section>
 
