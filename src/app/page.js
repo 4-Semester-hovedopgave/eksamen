@@ -25,7 +25,7 @@ export default function Home() {
 
           <div className="mt-8 flex gap-4">
             <Link href="https://www.anarikkelarsen.dk/" className="rounded-full bg-[#FF9933] px-6 py-3 text-sm font-semibold text-black hover:bg-orange-200 transition">
-              Explore gear
+              Shop gear
             </Link>
 
             <Link href="trade-in" className="rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-900 hover:border-slate-500 transition">
