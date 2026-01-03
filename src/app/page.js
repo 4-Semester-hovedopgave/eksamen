@@ -12,7 +12,7 @@ export default function Home() {
     <main className="min-h-screen text-slate-900">
       {/* HERO */}
       <section className="mx-auto max-w-6xl px-6 pt-4 pb-4 md:py-24 grid gap-12 md:grid-cols-5 items-center">
-        {/* TEXT */}
+        {/* TEKST */}
         <div className="md:col-span-2">
           <span className="inline-block mb-4 rounded-full bg-orange-500/10 px-4 py-1 text-sm text-orange-400">Community-driven resale</span>
 
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* IMAGE */}
+        {/* BILLEDE */}
         <div className="relative md:col-span-3 w-full overflow-hidden rounded-3xl h-88 md:h-112">
           <Image src="/glade.webp" alt="Glade ski folk" fill className="object-cover" />
           <div className="absolute inset-0 bg-black/15" />

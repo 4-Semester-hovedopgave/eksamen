@@ -32,7 +32,7 @@ export default function About() {
 
         {/* Row 2 text */}
         <div className="flex flex-col justify-center">
-          <h2 className="text-2xl font-bold">Condition & Fit</h2>
+          <h2 className="text-2xl font-bold uppercase">Condition & Fit</h2>
           <p className="mt-4 text-base leading-relaxed text-gray-700">Before an item appears on SnowSwap, it is received and reviewed by Snowminds. Each piece of ski gear is carefully checked and assessed to ensure that its condition is accurately described. This extra step helps create a more transparent and trustworthy resale experience, where users know what to expect when buying pre-owned equipment.</p>
         </div>
       </section>

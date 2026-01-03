@@ -11,7 +11,7 @@ export default function Navbar() {
         "block px-3 py-2 text-right whitespace-nowrap";
 
     return (
-        <nav className="px-4 lg:px-0 lg:max-w-5xl lg:mx-auto">
+        <nav className="mx-auto max-w-6xl px-6">
             <div className="flex h-20 items-center justify-between">
                 {/* LOGO */}
                 <Link href="/" onClick={() => setOpen(false)}>
@@ -24,7 +24,6 @@ export default function Navbar() {
                     />
                 </Link>
 
-                {/* DESKTOP */}
                 {/* DESKTOP */}
                 <div className="hidden items-center gap-10 text-sm md:flex font-semibold">
                     <Link
