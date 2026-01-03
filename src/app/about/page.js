@@ -8,7 +8,7 @@ export default function About() {
   return (
     <main className="mx-auto max-w-6xl px-6 py-10">
       {/* Row 1 */}
-      <section className="mx-auto grid max-w-5xl grid-cols-1 gap-10 md:grid-cols-2">
+      <section className="grid grid-cols-1 gap-10 md:grid-cols-2">
         <div className="flex flex-col justify-center">
           <h1 className="m-0 p-0 text-left text-2xl font-extrabold tracking-tight">ABOUT SNOWSWAP</h1>
 
@@ -24,7 +24,7 @@ export default function About() {
       <p className="mx-auto my-14 max-w-3xl text-center text-xl font-medium leading-snug md:text-3xl">“Good gear deserves more than one season. SnowSwap exists to extend the life of quality ski equipment.”</p>
 
       {/* Row 2 + 3 */}
-      <section className="mx-auto grid max-w-5xl grid-cols-1 gap-10 md:grid-cols-2">
+      <section className="grid grid-cols-1 gap-10 md:grid-cols-2 mb-4">
         {/* Row 2 image */}
         <div className="relative aspect-4/3 w-full overflow-hidden rounded-2xl bg-gray-100">
           <Image src="/fits.webp" alt="Fit and conditions" fill className="object-cover object-top" />
