@@ -3,6 +3,10 @@ import Link from "next/link";
 import ScrollCue from "@/components/ScrollCue";
 import SalesGoalBar from "@/components/SalesGoalBar";
 
+export const metadata = {
+  title: "Home | SnowSwap",
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen text-slate-900">

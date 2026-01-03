@@ -3,6 +3,10 @@
 import { useState } from "react";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mail-In | SnowSwap",
+};
+
 export default function MailInForm() {
   const [step, setStep] = useState(1);
   const [submitted, setSubmitted] = useState(false);

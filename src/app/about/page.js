@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "About SnowSwap",
+  title: "About | SnowSwap",
 };
 
 export default function About() {
