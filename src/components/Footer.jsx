@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="px-6 py-12">
+        <footer className="mx-auto max-w-6xl px-6 mb-4">
             <div className="mx-auto max-w-6xl">
 
                 {/* GRID */}

@@ -75,7 +75,6 @@ export default function Navbar() {
                         </Link>
                         <Link
                             href="https://www.anarikkelarsen.dk"
-                            target="_blank"
                             className={linkClass}
                             onClick={() => setOpen(false)}
                         >
