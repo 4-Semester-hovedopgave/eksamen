@@ -81,11 +81,8 @@ export default function TradeIn() {
         </div>
       </section>
 
-      <section className="mt-16">
-        <div className="relative w-full overflow-hidden rounded-2xl bg-gray-100 aspect-video">
-          <iframe className="absolute inset-0 h-full w-full" src="https://www.youtube.com/embed/ieUvrIZVIfU?rel=0&modestbranding=1" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-        </div>
-      </section>
+      {/* VIDEO */}
+      <Video />
 
       {/* FAQ */}
       <section id="faq" className="mt-16">
