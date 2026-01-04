@@ -29,7 +29,7 @@ export default function Home() {
               Shop gear
             </Link>
 
-            <Link href="trade-in" className="rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-900 hover:border-slate-500 transition">
+            <Link href="/trade-in" className="rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-900 hover:border-slate-500 transition">
               How it works
             </Link>
           </div>
