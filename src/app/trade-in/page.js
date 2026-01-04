@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Video from "@/components/Video";
 
 export const metadata = {
   title: "Trade-In | SnowSwap",
