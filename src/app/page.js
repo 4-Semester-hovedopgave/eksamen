@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ScrollCue from "@/components/ScrollCue";
 import SalesGoalBar from "@/components/SalesGoalBar";
+import Video from "@/components/Video";
 
 export const metadata = {
   title: "Home | SnowSwap",
@@ -50,11 +51,12 @@ export default function Home() {
       <SalesGoalBar />
 
       {/* VIDEO */}
-      <section className="mx-auto max-w-6xl px-6 pt-4 pb-4 md:py-24">
+      <Video />
+      {/* <section className="mx-auto max-w-6xl px-6 pt-4 pb-4 md:py-24">
         <div className="relative w-full overflow-hidden rounded-3xl bg-gray-100 aspect-video">
           <iframe className="absolute inset-0 h-full w-full" src="https://www.youtube.com/embed/ieUvrIZVIfU?rel=0&modestbranding=1" title="YouTube video" />
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }
